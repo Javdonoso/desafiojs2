@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <script defer src="./assets/js/guia.js"></script>
+
+    <title>Desafio JS 2</title>
+</head>
+
+<body>
+    <div class="caja1">
+        <img class="imagen" src="./assets/img/foto.jpg" alt="foto1" onclick="bordear()">
+    </div>
+    <p>Puedes llevar hasta 10 stickes en total</p>
+
+<div class="caja2">
+    <div class="caja2a">
+        <img class="foto1" src="./assets/img/sticker1.png" alt="foto1">
+        <input id="cantidad1" type="number" placeholder="Cantidad"><br>
+    </div>
+    <div class="caja2a">
+        <img class="foto1" src="./assets/img/sticker2.jpg" alt="foto1">
+        <input id="cantidad2" type="number" placeholder="Cantidad"><br>
+    </div>
+    <div class="caja2a">
+        <img class="foto1" src="./assets/img/sticker3.png" alt="foto1">
+        <input id="cantidad3" type="number" placeholder="Cantidad"><br>
+    </div>
+</div>
+<p id="resultado">No has seleccionado stickers</p>
+<button id="btn" onclick="verificar()">Verificar</button>
+
+
+
+<div class="candado">
+    <select id="primero">
+        <option value="">- Número -</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <select id="segundo">
+        <option value="">- Número -</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <select id="tercero">
+        <option value="">- Número -</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <p></p>
+    <button onclick="comprobar()">Verificar contraseña</button>
+    <p id="verificacion"></p>
+</div>
+
+</body>
+</html>

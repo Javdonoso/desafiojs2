@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+.caja1 {
+    text-align: center;
+}
+
+.imagen {
+    width: 35%;
+    height: 35%;
+    margin-top: 90px;
+    justify-items: center;
+    border: none;
+}
+
+.caja2 {
+    background: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.foto1 {
+    text-align: center;
+    text-justify: center;
+    margin: 10px;
+}
+
+.caja2a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 1px rgb(7, 237, 30);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 10px;
+}
+
+p {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+.candado {     background: #b72020;
+    margin-top: 200px;
+text-align: center;}
+
+/* .primero.segundo.tercero { text-align: center;} */
